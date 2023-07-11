@@ -24,4 +24,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash 
 nvm install node
 ```
 
+### Install Font
+```
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip ~/
+unzip -d ~/.fonts ~/FiraCode.zip -u
+fc-cache -f -v
+```
+
 
