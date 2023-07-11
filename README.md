@@ -22,6 +22,8 @@ pip install pynvim \
 sudo apt-get install ruby-full \
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash \
 nvm install node
+npm install -g neovim
+gem install neovim
 ```
 
 ### Install Font
